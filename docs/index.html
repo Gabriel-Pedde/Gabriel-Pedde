@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gabriel Pedde — theoretical physicist (PhD, SISSA) working in High Performance Computing and AI/ML." />
+  <title>Gabriel Pedde</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Gabriel Pedde</h1>
+      <p class="subtitle">Theoretical physicist · High Performance Computing &amp; AI</p>
+      <p class="location">SISSA / ICTP — Trieste, Italy</p>
+    </header>
+
+    <section>
+      <h2>Background</h2>
+      <p>
+        I am a PhD candidate in theoretical physics at <strong>SISSA</strong> (Trieste),
+        currently also completing the <strong>Master in High Performance Computing</strong>
+        (MHPC) jointly run by SISSA and ICTP. Before Trieste I studied at the
+        <strong>Università Cattolica del Sacro Cuore</strong> in Brescia, where I earned a
+        BSc in Mathematics and an MSc in Physics, both <em>110/110 cum laude</em>, and
+        graduated as the best student of my year.
+      </p>
+    </section>
+
+    <section>
+      <h2>Physics</h2>
+      <p>
+        Physics is what I care about most. My research is in theoretical high-energy
+        physics: I study dualities between supersymmetric gauge theories by matching
+        their superconformal indices and partition functions, using large symbolic
+        computations run as cluster jobs. The work has produced
+        <a href="https://inspirehep.net/authors/2794326">six peer-reviewed papers</a>
+        (also on <a href="https://scholar.google.com/citations?user=EXmiYHQAAAAJ">Google Scholar</a>),
+        spanning quantum field theory, supersymmetry, and the exact methods that connect
+        them. I enjoy the parts of physics where a clean mathematical structure turns out
+        to describe something real.
+      </p>
+    </section>
+
+    <section>
+      <h2>HPC &amp; AI</h2>
+      <p>
+        Through the MHPC programme I work at the boundary between large-scale computing
+        and machine learning. My scientific-computing languages are <strong>Fortran</strong>
+        (modern, OOP), <strong>C++</strong> (templates, smart pointers, concurrency) and
+        <strong>Python</strong> (NumPy, SciPy, pandas, matplotlib); builds with CMake.
+        On the HPC side: parallel and GPU-accelerated scientific computing with
+        <strong>CUDA</strong> (kernels, shared memory, multi-GPU with MPI),
+        <strong>cuBLAS</strong>, <strong>OpenACC</strong>, <strong>MPI</strong> and
+        <strong>OpenMP</strong>; distributed linear-algebra and eigenvalue solvers with
+        <strong>PETSc/SLEPc</strong>; CPU-architecture analysis (cache hierarchy, roofline
+        model, gprof/perf profiling); and job orchestration with <strong>SLURM</strong>
+        on Leonardo (CINECA), Ulysses (SISSA) and Argo (ICTP). I have also worked with
+        cloud and container infrastructure (<strong>Docker</strong>,
+        <strong>Kubernetes</strong>, AWS) and distributed workflow libraries
+        (Dask, Ray, Parsl).
+      </p>
+      <p>
+        Numerical methods covered include finite-difference and finite-element
+        discretisations of PDEs, iterative Krylov solvers, and Kohn-Sham DFT via
+        <strong>Quantum ESPRESSO</strong>. On the AI/ML side: reinforcement-learning
+        fine-tuning of LLMs (REINFORCE/RLOO, PPO, GRPO, RLHF), multi-agent LLM systems
+        with RAG and tool use, deep learning with <strong>PyTorch</strong> (CNNs,
+        transformers &amp; attention, autoencoders, VAEs, adversarial training,
+        representation learning), <strong>Physics-Informed Neural Networks</strong>
+        (PINNs), Gaussian processes, and classical and Bayesian machine learning
+        (scikit-learn, manifold learning, dimensionality reduction, clustering). I also
+        have a working introduction to <strong>quantum computing</strong>: gate-based
+        circuits with Qiskit and quantum annealing (D-Wave, QUBO problems).
+      </p>
+    </section>
+
+    <section>
+      <h2>Passions &amp; Hobbies</h2>
+      <p>
+        When I'm not doing physics or HPC/AI, I love reading (especially sci-fi
+        and classics) as well as playing board games. I love spending time
+        outdoors, exploring nature, hiking, and going on adventures. Most
+        importantly, I'm always eager to explore new things and learn new
+        skills, whether it's a new programming language, a new scientific topic,
+        or a new hobby.
+      </p>
+    </section>
+
+    <section>
+      <h2>Selected work</h2>
+      <ul class="links">
+        <li><a href="https://github.com/Gabriel-Pedde/llama-rloo-reasoning">llama-rloo-reasoning</a> — LLM RL fine-tuning from scratch (REINFORCE/RLOO + PPO clipping)</li>
+        <li><a href="https://github.com/Gabriel-Pedde/llm-opinion-dynamics">llm-opinion-dynamics</a> — multi-agent LLM opinion dynamics</li>
+        <li><a href="https://github.com/Gabriel-Pedde/gp-kepler-from-scratch">gp-kepler-from-scratch</a> — Gaussian Process on real Kepler data</li>
+        <li><a href="https://github.com/Gabriel-Pedde/GPU_Offloading_MHPC">GPU_Offloading_MHPC</a> — CUDA to Lattice Boltzmann solver</li>
+        <li><a href="https://github.com/Gabriel-Pedde/SLEPc_Schrodinger_Solver">SLEPc_Schrodinger_Solver</a> — distributed eigenvalue solver</li>
+        <li><a href="https://github.com/Gabriel-Pedde">… more on GitHub</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:gabry9815@gmail.com">gabry9815@gmail.com</a> ·
+        <a href="https://github.com/Gabriel-Pedde">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Gabriel Pedde</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

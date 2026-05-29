@@ -1,0 +1,204 @@
+/* Modern academic — tinted background, indigo accents, gradient header,
+   sections as subtle cards with accent bars. Self-contained, no web fonts. */
+
+:root {
+  --fg: #1c2433;
+  --muted: #5b6577;
+  --accent: #3b5bdb;
+  --accent-2: #6741d9;
+  --accent-soft: rgba(59, 91, 219, 0.12);
+  --rule: #e3e7f0;
+  --bg: #f6f8fc;
+  --card: #ffffff;
+  --shadow: 0 1px 2px rgba(20, 30, 60, 0.04),
+            0 8px 24px rgba(20, 30, 60, 0.06);
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  color: var(--fg);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.65;
+  background:
+    radial-gradient(900px 500px at 100% -10%, rgba(103, 65, 217, 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 0%, rgba(59, 91, 219, 0.10), transparent 55%),
+    var(--bg);
+  background-attachment: fixed;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem 2rem;
+}
+
+/* ---- Header ---- */
+
+header {
+  margin-bottom: 2.75rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin: 0 0 0.4rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  background: linear-gradient(110deg, var(--accent) 0%, var(--accent-2) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.location {
+  margin: 0.4rem 0 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ---- Sections as cards ---- */
+
+section {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem 1.75rem 1.5rem 2rem;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  width: 4px;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(180deg, var(--accent), var(--accent-2));
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 0.7rem;
+  color: var(--fg);
+  letter-spacing: -0.01em;
+}
+
+p { margin: 0 0 0.85rem; }
+p:last-child { margin-bottom: 0; }
+
+strong { color: var(--fg); }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.18s ease, color 0.18s ease;
+  padding-bottom: 1px;
+}
+
+a:hover {
+  color: var(--accent-2);
+  background-size: 100% 2px;
+}
+
+/* ---- Selected work ---- */
+
+ul.links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+}
+
+ul.links li {
+  margin: 0;
+  padding: 0.7rem 0.9rem;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  font-size: 0.97rem;
+  transition: border-color 0.18s ease, transform 0.18s ease,
+              box-shadow 0.18s ease;
+}
+
+ul.links li:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(59, 91, 219, 0.10);
+}
+
+ul.links li a {
+  font-weight: 700;
+  background-image: none;
+}
+
+/* ---- Footer ---- */
+
+footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+footer p { margin: 0; }
+
+/* ---- Entrance animation ---- */
+
+header, section {
+  animation: rise 0.5s ease both;
+}
+
+section:nth-of-type(1) { animation-delay: 0.05s; }
+section:nth-of-type(2) { animation-delay: 0.10s; }
+section:nth-of-type(3) { animation-delay: 0.15s; }
+section:nth-of-type(4) { animation-delay: 0.20s; }
+section:nth-of-type(5) { animation-delay: 0.25s; }
+section:nth-of-type(6) { animation-delay: 0.30s; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  header, section { animation: none; }
+  a, ul.links li { transition: none; }
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 480px) {
+  body { font-size: 17px; }
+  main { padding: 2.5rem 1rem 1.5rem; }
+  h1 { font-size: 2rem; }
+  section { padding: 1.25rem 1.1rem 1.25rem 1.4rem; }
+}
