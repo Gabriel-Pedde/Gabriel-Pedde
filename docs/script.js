@@ -84,6 +84,8 @@ document.getElementById("year").textContent = new Date().getFullYear();
     if (page) { page.classList.add("active"); window.scrollTo(0, 0); }
     if (link) link.classList.add("active");
 
+    document.body.dataset.page = id;  // swaps the full-viewport photo backdrop
+
     history.replaceState(null, "", "#" + id);
   }
 
