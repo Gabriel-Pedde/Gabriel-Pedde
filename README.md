@@ -17,7 +17,7 @@
   <a href="https://www.mhpc.it/"><img alt="MHPC" src="https://img.shields.io/badge/MHPC-SISSA%20%2F%20ICTP%20Trieste-0a3d62?style=for-the-badge&labelColor=0a0e1a"></a>
   <a href="mailto:gabry9815@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-gabry9815%40gmail.com-c0392b?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e1a"></a>
   <a href="https://github.com/Gabriel-Pedde"><img alt="GitHub" src="https://img.shields.io/badge/github-Gabriel--Pedde-181717?style=for-the-badge&logo=github&labelColor=0a0e1a"></a>
-  <a href="https://gabriel-pedde.github.io/Gabriel-Pedde/CV_Gabriel_Pedde_Ungureanu.pdf"><img alt="CV" src="https://img.shields.io/badge/CV-download%20PDF-1469d6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0a0e1a"></a>
+  <a href="https://gabriel-pedde.github.io/Gabriel-Pedde/CV_Gabriel_Pedde_Ungureanu_AI.pdf"><img alt="CV" src="https://img.shields.io/badge/CV-download%20PDF-1469d6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0a0e1a"></a>
 </p>
 
 <!-- live-site CTA -->

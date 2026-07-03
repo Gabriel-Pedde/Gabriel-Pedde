@@ -1,0 +1,7 @@
+# Output fil
+*.aux
+*.log
+*.out
+
+# Original tex files
+*.tex
