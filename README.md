@@ -149,7 +149,7 @@ Annotated C examples building intuition for *why* code performs the way it does 
   <a href="mailto:gabry9815@gmail.com"><img alt="Email"   src="https://img.shields.io/badge/-gabry9815%40gmail.com-c0392b?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e1a"></a>
   <a href="https://github.com/Gabriel-Pedde"><img alt="GitHub" src="https://img.shields.io/badge/-Gabriel--Pedde-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e1a"></a>
   <a href="https://gabriel-pedde.github.io/Gabriel-Pedde/"><img alt="Portfolio" src="https://img.shields.io/badge/-portfolio-00d9ff?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0a0e1a"></a>
-  <a href="https://gabriel-pedde.github.io/Gabriel-Pedde/CV_Gabriel_Pedde_Ungureanu.pdf"><img alt="CV" src="https://img.shields.io/badge/-curriculum%20vitae-1469d6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0a0e1a"></a>
+  <a href="https://gabriel-pedde.github.io/Gabriel-Pedde/CV_Gabriel_Pedde_Ungureanu_AI.pdf"><img alt="CV" src="https://img.shields.io/badge/-curriculum%20vitae-1469d6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=0a0e1a"></a>
 </p>
 
 <!-- footer wave -->
