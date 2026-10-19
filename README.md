@@ -31,7 +31,7 @@
 
 ## ⟨ about ⟩
 
-I'm a student in the **Master in High Performance Computing** (MHPC) programme at **SISSA / ICTP** and PhD student in **High Energy Physics** at **SISSA**, Trieste. My work focuses on parallel and GPU-accelerated scientific computing — from cache-aware single-core kernels up to distributed solvers running on Leonardo. More recently I've been applying that toolkit to **ML/AI workloads**: fine-tuning LLMs with rule-based RL, running multi-agent LLM systems on cluster GPUs, and Bayesian inference on real scientific data.
+I hold a **PhD in Theoretical Physics** (high-energy / particle physics, *cum laude*) from **SISSA**, Trieste, and I'm completing the **Master in High Performance Computing** (MHPC) programme at **SISSA / ICTP**. My work focuses on parallel and GPU-accelerated scientific computing — from cache-aware single-core kernels up to distributed solvers running on Leonardo. More recently I've been applying that toolkit to **ML/AI workloads**: fine-tuning LLMs with rule-based RL, running multi-agent LLM systems on cluster GPUs, and Bayesian inference on real scientific data.
 
 The repositories below collect coursework, group projects, and a few solo experiments. The HPC ones build with CMake or Make and ship with benchmarks where they make sense; the ML ones are reproducible end-to-end (data fetched from public archives, training reports checked in).
 
@@ -137,7 +137,7 @@ Annotated C examples building intuition for *why* code performs the way it does 
 ## ⟨ currently ⟩
 
 ```text
-→ finishing the MHPC programme at SISSA / ICTP and the PhD in High Energy Physics at SISSA
+→ PhD in Theoretical Physics (SISSA) ✓ done — now finishing the MHPC programme at SISSA / ICTP
 → looking for ML/AI + HPC engineering roles — GPU programming, distributed training infrastructure, LLM systems
 → open to research collaborations on ML for science, scientific computing, numerical methods and relative topics
 → Always eager to learn new stuff and chat about cool projects, so feel free to reach out! 😉
