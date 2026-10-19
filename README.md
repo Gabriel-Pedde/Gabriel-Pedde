@@ -79,6 +79,10 @@ The repositories below collect coursework, group projects, and a few solo experi
 ![TRL](https://img.shields.io/badge/TRL-FF6F00?style=flat-square)
 ![CrewAI](https://img.shields.io/badge/CrewAI-3E5060?style=flat-square)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-5A3E85?style=flat-square)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
 **tooling**
